@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Mi Página Personal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      line-height: 1.8;
+      color: #333;
+    }
+    h1, h2, h3 {
+      font-family: 'Roboto Slab', serif;
+      font-weight: 700;
+    }
+    p {font-size: 16px;}
+    .margin {margin-bottom: 40px;}
+
+    .bg-1 { background-color: #6C63FF; color: #fff; }
+    .bg-2 { background-color: #FF6F61; color: #fff; }
+    .bg-3 { background-color: #F8F9FA; color: #333; }
+    .bg-4 { background-color: #222831; color: #eee; }
+
+    .container-fluid { padding-top: 70px; padding-bottom: 70px; }
+
+    .navbar { 
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 14px;
+      letter-spacing: 3px;
+      background-color: #222831;
+    }
+    .navbar .navbar-brand {
+      font-family: 'Roboto Slab', serif;
+      font-weight: bold;
+      color: #FFD369 !important;
+    }
+    .navbar-nav li a { color: #eee !important; }
+    .navbar-nav li a:hover { color: #FFD369 !important; }
+
+    .btn-custom {
+      background-color: #FFD369;
+      color: #222831;
+      border: none;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+    .btn-custom:hover {
+      background-color: #FF6F61;
+      color: #fff;
+    }
+
+    footer { padding: 20px; text-align: center; }
+
+    @media screen and (max-width: 767px) {
+      .row.content {height:auto;}
+      .sidenav {height:auto; padding:15px;}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Albert Cé Jota</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">QUIÉN</a></li>
+        <li><a href="#">QUÉ</a></li>
+        <li><a href="#">DÓNDE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Quién soy yo?</h3>
+  <img src="img/Selva.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Perfil" width="350" height="350">
+  <h3>Soy un montaraz</h3>
+</div>
+
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">¿Qué soy yo?</h3>
+  <p>Alguien que pide una instantánea de la Tierra para guardarla en el bolsillo de la conciencia humana para siempre, para que no se nos olvide
+    lo que fuimos, para llegar por buen camino a dónde queremos ir. Que nos transporte a ese destino la bruma que levanta en el bosque el otoño,
+    dejando miguitas los aromas de la alfombra de hojas que van pisando nuestos guías por delante. </p>
+  <a href="#" class="btn btn-custom btn-lg">Explorar</a>
+</div>
+
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">¿Dónde encontrarme?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Mar </p>
+      <img src="img/genoveses.jpg" class="img-responsive margin" style="width:100%" alt="Proyecto 1">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Montaña</p>
+      <img src="img/ordesa.jpg" class="img-responsive margin" style="width:100%" alt="Proyecto 2">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Pueblos</p>
+      <img src="img/torla.jpg" class="img-responsive margin" style="width:100%" alt="Proyecto 3">
+    </div>
+  </div>
+</div>
+
+
+<footer class="container-fluid bg-4">
+  <p>© 2025 Mi Página Web | Diseñada con ❤️ y Bootstrap</p> 
+</footer>
+</body>
+</html>
